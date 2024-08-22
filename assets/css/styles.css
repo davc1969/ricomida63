@@ -36,7 +36,7 @@
 }
 
 .texto-1_8 {
-  font-size: 1.8rem; /* equivale a 30px en navegador normal sin cambios */
+  font-size: 1.7rem; /* equivale a 30px en navegador normal sin cambios */
 }
 
 .texto-2_3 {
@@ -44,11 +44,61 @@
 }
 
 .texto-2_5 {
-  font-size: 2.5rem; /* equivale a 40px en navegador normal sin cambios */
+  font-size: 2.25rem; /* equivale a 40px en navegador normal sin cambios */
 }
 
+.color-fondo-oscuro {
+  background-color: #373A3C;
+}
+
+.color-fondo-claro {
+  background-color: #FFFFFF;
+}
+
+.color-fondo-resaltado {
+  background-color: #DC3545;
+}
+
+.color-borde-botones {
+  border-color: #DDDDDD;
+}
 
 
 img {
   max-width: 100%;
+}
+
+
+footer {
+  background-color: #373A3C;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 2.3rem;
+  line-height: 2.2rem;
+  font-family: "Lobster", comic-sans;
+}
+
+.btn:hover {
+  border-color: #373A3C;
+  background-color: #DDDDDD;
+  color: #DC3545 !important;
+  padding-inline: 4rem !important;
+  transition: 0.2s all linear;
+}
+
+.suscripcion {
+  padding-block: 8rem;
+  line-height: 1.6rem;
+}
+
+.titulo-relacionadas {
+  border-color: #000;
+  border-top-width: 2px;
+  border-top-style: solid;
+  padding-top: 1rem;
+}
+
+.contenedor-cards {
+  gap: 1rem !important;
 }
