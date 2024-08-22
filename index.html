@@ -10,14 +10,48 @@
 </head>
 <body>
   <header>
-    nombre
-    menu
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ricomida</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
-  <article>
-    <div class="presentacion">
-      foto
-      caja con texto
+
+  <article class="receta-principal container mx-auto mt-4">
+    <div class="presentacion row">
+      <div class="imagen col-md-6 col-sm-12 ">
+        <img src=".\assets\img\principal.jpg" alt="Pizza de champiñones y espinacas">
+      </div>
+      <div class="texto-presentacion col-md-6 col-sm-12 ">
+        <p class="titulo-receta">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</p>
+        <hr>
+        <p class="caracteristicas">110 MIN / 6 A 8 PORCIONES</p>
+        <div class="caja-botones">
+          <button class="btn">Enviar por correo</button>
+          <button class="btn">Añadir a favoritos</button>
+        </div>
+      </div>
     </div>
+
     <div class="carrusel">
       fotos de la receta
     </div>
@@ -29,7 +63,7 @@
       mensaje de subscripción
     </div>
     <footer>
-      nombre
+      Ricomida
     </footer>
   </article>
 
