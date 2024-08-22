@@ -1,3 +1,51 @@
+.lobster-regular {
+  font-family: "Lobster", comic-sans;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.cabin-regular {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.cabin-bold {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.texto-1 {
+  font-size: 1rem; /* equivale a 16px en navegador normal sin cambios */
+}
+
+.text0-1_5 {
+  font-size: 1.5rem; /* equivale a 20px en navegador normal sin cambios */
+}
+
+.texto-1_6 {
+  font-size: 1.65rem; /* equivale a 23px en navegador normal sin cambios */
+}
+
+.texto-1_8 {
+  font-size: 1.8rem; /* equivale a 30px en navegador normal sin cambios */
+}
+
+.texto-2_3 {
+  font-size: 2.3rem; /* equivale a 37px en navegador normal sin cambios */
+}
+
+.texto-2_5 {
+  font-size: 2.5rem; /* equivale a 40px en navegador normal sin cambios */
+}
 
 
 
